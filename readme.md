@@ -16,8 +16,7 @@ This templates uses Mediator.
 ## How to install?
 
 ```bash
-dotnet new --install .\
-dotnet new --install C:\dev\luizaraujo\dotnet.templates\webapiclean\        
+dotnet new --install .\ 
 ```
 
 ## How to start?
@@ -26,4 +25,6 @@ dotnet new --install C:\dev\luizaraujo\dotnet.templates\webapiclean\
 dotnet new webapiclean --ProjectName MyProject
 ```
 
-this template sources was based on https://github.com/llatinov/dotnet.core.templates
+## References
+* https://github.com/dotnet/dotnet-template-samples
+* https://github.com/llatinov/dotnet.core.templates
