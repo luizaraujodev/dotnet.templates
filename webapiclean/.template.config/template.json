@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Luiz Araújo",
+  "classifications": ["Common", "Code"],
+  "identity": "dotnet.core.webapi.clean",
+  "name": ".NET 6 Web Api (Clean Code)",
+  "shortName": "webapiclean",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+  "guids": [
+    "FAE04EC0-301F-11D3-BF4B-00C04F79EFBC",
+    "A5575303-4DE6-4D51-A06A-A0EA4FBF2C90",
+    "45BC355F-4E23-4842-A4F9-1888FEDBE43D",
+    "50575BDF-634F-4745-84C9-C064EA989A02",
+    "1D6B6AD5-81BA-47C2-A3B4-DF41AECCEE69",
+    "B70AEA29-66A3-46F5-8BFE-7AD1760A0013",
+    "1C9AC41A-1DA7-46C8-A09F-5C4D03606316"
+  ],
+  "symbols": {
+    "ProjectName": {
+      "type": "parameter",
+      "replaces": "PROJECT_NAME",
+      "FileRename": "PROJECT_NAME",
+      "isRequired": true
+    },
+    "AddCrossCutting": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "false"
+    }
+  },
+  "sources": [
+    {
+      "exclude": [
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        ".template.config/**/*",
+        "**/*.filelist",
+        "**/*.user",
+        "**/*.lock.json",
+        ".vs/**"
+      ],
+      "modifiers": [
+        {
+          "condition": "(!AddCrossCutting)",
+          "exclude": ["src/**/*.CrossCutting/**"]
+        }
+      ]
+    }
+  ]
+}
