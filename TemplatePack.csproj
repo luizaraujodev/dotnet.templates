@@ -16,6 +16,7 @@
         <ContentTargetFolders>content</ContentTargetFolders>
         <NoWarn>$(NoWarn);NU5128</NoWarn>
         <NoDefaultExcludes>true</NoDefaultExcludes>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/luizaraujodev/nitro-dotnet-templates</RepositoryUrl>
         <PackageProjectUrl>https://api.nuget.org/v3/index.json</PackageProjectUrl>
     </PropertyGroup>

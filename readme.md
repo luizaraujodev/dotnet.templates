@@ -1,4 +1,4 @@
-# .NET 6 Templates
+# Nitro.DotNet.Templates
 
 ## webapiclean
 
@@ -16,13 +16,13 @@ This templates uses Mediator.
 ## How to install?
 
 ```bash
-dotnet new --install .\ 
+dotnet new --install Nitro.DotNet.Templates
 ```
 
 ## How to start?
 
 ```bash
-dotnet new webapiclean --ProjectName MyProject
+dotnet new nitro.webapi.clean --ProjectName MyProject
 ```
 
 ## References
