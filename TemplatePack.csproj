@@ -23,7 +23,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="docs\readme.md" Pack="true" PackagePath="\" />
+        <None Include="readme.md" Pack="true" PackagePath="\" />
         <Content Include="Templates\**\*" Exclude="Templates\**\bin\**;templates\**\obj\**" />
         <Compile Remove="**\*" />
     </ItemGroup>
