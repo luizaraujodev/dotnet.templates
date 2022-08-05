@@ -1,10 +1,10 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "Luiz Araújo",
-  "classifications": ["Common", "Code"],
-  "identity": "dotnet.core.webapi.clean",
+  "classifications": ["WebApi", "Code"],
+  "identity": "nitro.webapi.clean",
   "name": ".NET 6 Web Api (Clean Code)",
-  "shortName": "webapiclean",
+  "shortName": "nitro.webapi.clean",
   "tags": {
     "language": "C#",
     "type": "item"
