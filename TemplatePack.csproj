@@ -17,12 +17,13 @@
         <NoWarn>$(NoWarn);NU5128</NoWarn>
         <NoDefaultExcludes>true</NoDefaultExcludes>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <None Include="readme.md" Pack="true" PackagePath="\" />
+
         <RepositoryUrl>https://github.com/luizaraujodev/nitro-dotnet-templates</RepositoryUrl>
         <PackageProjectUrl>https://api.nuget.org/v3/index.json</PackageProjectUrl>
     </PropertyGroup>
 
     <ItemGroup>
+        <None Include="docs\readme.md" Pack="true" PackagePath="\" />
         <Content Include="Templates\**\*" Exclude="Templates\**\bin\**;templates\**\obj\**" />
         <Compile Remove="**\*" />
     </ItemGroup>
